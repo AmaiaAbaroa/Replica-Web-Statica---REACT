@@ -1,0 +1,22 @@
+.Button-Pink{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    width: 18%;
+    margin: 0% 5% 0% 1%;
+    border-radius: 2rem;
+    border: 0.5vh #fc546c solid;
+    font-size: 1.3rem;
+    font-weight: bold;
+    justify-content: center;
+    color:#fc546c;
+    transition: 0.2s;
+}
+
+.Button-Pink:hover{
+    background-color: #fc546c;
+    color:#f3fbfb;
+    border: 1px solid #f3fbfb ;
+    box-shadow: 0 0 20px #f33e59, 0 0 50px #f33e59, 0 0 20px #f33e59;
+    transition-delay: 0.5s;
+    }
