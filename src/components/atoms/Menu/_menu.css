@@ -1,0 +1,34 @@
+ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+ul li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 2%;
+    text-align: center;
+    /* display: flex; */
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #fc546c;
+}
+
+#nav-down-arrow{
+    position: absolute;
+    width: 0.5%;
+    height: 7%;
+    margin: 0.5% 2% 0% 0.5%;
+    align-self: center;
+}

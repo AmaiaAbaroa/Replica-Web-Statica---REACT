@@ -1,8 +1,8 @@
-.Button-Pink{
+.button-pink{
     display: flex;
     align-items: center;
-    height: 60%;
-    width: 18%;
+    height: 60px;
+    width: 150px;
     margin: 0% 5% 0% 1%;
     border-radius: 2rem;
     border: 0.5vh #fc546c solid;
@@ -10,10 +10,11 @@
     font-weight: bold;
     justify-content: center;
     color:#fc546c;
+    background-color: #fff;
     transition: 0.2s;
 }
 
-.Button-Pink:hover{
+.button-pink:hover{
     background-color: #fc546c;
     color:#f3fbfb;
     border: 1px solid #f3fbfb ;

@@ -1,17 +1,32 @@
 
 import './App.css'
-import ButtonAtom from './components/Atoms/Button/ButtonAtom'
+import Button from './components/atoms/Button/Button'
+import Header from './components/molecules/Header'
+
 
 
 function App() {
 
   return (
     <>
-      <div>
+      <Header />
+      <main>
         <h1>HOLA MUNDO</h1>
-        <ButtonAtom text={'Prueba'} style="Button-Pink"> </ButtonAtom>
-      </div>
+        <Button className="button-pink">Prueba</Button>
+      </main>
     </>
+
   )}
 
 export default App
+
+{/**
+Header
+Main
+    Hero
+    Descriptin
+    Feature
+    Screen
+    Extra
+Footer
+*/}

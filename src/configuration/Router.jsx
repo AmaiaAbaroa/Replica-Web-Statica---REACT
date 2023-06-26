@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import ButtonAtom from '../components/Atoms/Button/ButtonAtom';
+import ButtonAtom from '../components/atoms/Button/Button';
 
 
 const Router = () => {
